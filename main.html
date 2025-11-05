@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .box {
+      border: 2px solid black;
+      background-color: yellow;
+      width: 300px;
+      height: 300px;
+      -webkit-animation: phone 2s 1s infinite alternate;
+    }
+    .box:hover {
+      animation-name: phone;
+      animation-duration: 1.4s;
+    }
+    @keyframes phone {
+      0% {
+        transform: translateX(0px);
+      }
+      40% {
+        transform: translateX(50px);
+        background-color: green;
+      }
+      60% {
+        transform: translateY(100px);
+      }
+      80% {
+        transform: translateX(150px);
+        background-color: green;
+      }
+      100% {
+        transform: translateY(200px);
+      }
+    }
+  </style>
+  <body>
+    <h1>ANIMATION</h1>
+    <div class="box"></div>
+  </body>
+</html>

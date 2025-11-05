@@ -1,0 +1,132 @@
+<style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+    .banner {
+      background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/LEO/Jupiterphase1/RewardsPC_1X_-_1500x600._CB799265737_.jpg);
+      height: 230px;
+      background-size: cover;
+      padding: 0px;
+    }
+
+   .nav1 img {
+      display: flex;
+      height: 100px;
+      width: 100px;
+      padding: 10px;
+   }
+
+   nav{
+    position:sticky;
+    top: 0px;
+   }
+    .nav1 {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 0px;
+      background-color: white;
+    }
+    ul {
+      display: flex;
+      gap: 10px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    ul li {
+      display: flex;
+      list-style: none;
+      padding: 30px;
+      padding-top: 28px;
+    }
+    .search_bar {
+      padding-top: 38px;
+      margin-right: 20px;
+    }
+
+    .search_bar button {
+      height: 30px;
+      width: 70px;
+      border-radius: 10px;
+      padding: 2px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .search_bar input {
+      padding: 2px;
+      height: 25px;
+      width: 180px;
+      border-radius: 10px;
+    }
+    .read-more-button {
+      position: relative;
+      left: 180px;
+    }
+    /* .main {
+      display: flex;
+      height: 370px;
+      width: 370px;
+      gap: 70px;
+      justify-content: space-around;
+    } */
+    .main {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 10px;
+      padding: 10px;
+    }
+    .main img{
+        margin-left: 80px;
+    }
+
+    .box {
+      /* margin-top: 15px; */
+      border: 2px solid black;
+      border-radius: 10px;
+      height: 500px;
+      padding: 10px;
+      /* margin-left: 40px; */
+    }
+    .foot {
+      display: flex;
+      padding: 20px;
+      height: 500px;
+      background-color: rgba(219, 94, 72, 0.918);
+      color: white;
+      margin-top: 1000px;
+    }
+    .link {
+      width: 30%;
+      text-align: center;
+      list-style: none;
+    }
+    .company {
+      width: 40%;
+      margin-left: 280px;
+    }
+    .head{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .over{
+      height: 400px;
+      width: 450px;
+      border: 2px solid black;
+      overflow: auto;
+      /* overflow-y: hidden; */
+      margin-left: 10px;
+      border-radius: 10px;
+      /* background-color: burlywood; */
+    }
+    p{
+        padding: 10px;
+    }
+
+    .icon{
+           height: 50px;
+           width: 50px;
+          border-radius: 30px;
+          position: fixed;
+          right: 10px;
+          bottom: 10px;
+    }
+  </style>

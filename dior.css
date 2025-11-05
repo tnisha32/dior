@@ -1,0 +1,92 @@
+.head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: gray;
+    display: flex ;
+    justify-content: space-between;
+    margin-left: 650px;
+}
+/* .search_bar{
+    width: 20px;
+    height: 5px;
+} */
+.two{
+    text-align: center;
+    color: rgb(94, 97, 102);
+}
+.banner{
+    background-image: url(https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/en_US/dw0c037fb6/images/3.-Engraving-Studio/engrave_PLP_Fall2023_Jadore_Lor_1440x617.jpg?sw=1850);
+    background-size: cover;
+    height: 600px;
+}
+.main{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.main2{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.ad{
+    margin-top: 30px;
+}
+.text2{
+    text-align: center;
+    color: rgb(29, 26, 26);
+    font-family: 'Times New Roman', Times, serif;
+}
+.main3{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+    margin-left: 180px;
+    margin-right: 190px;
+}
+.des{
+    margin-left: 0px;
+    text-align: center;
+    color: rgb(77, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descrip{
+    /* margin-left: 10px; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.button{
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(30, 30, 37);
+    color: white;
+}
+.padd{
+    text-align: center;
+    color: rgb(44, 39, 39);
+}
+.run{
+    text-align: center;
+    margin-left: 0px;
+    color: rgb(75, 71, 66);
+}
+
+.dish{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.hom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head{
+    position: sticky;
+    top: 0px;
+}
